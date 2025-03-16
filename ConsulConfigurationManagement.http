@@ -1,0 +1,6 @@
+@ConsulConfigurationManagement_HostAddress = http://localhost:5268
+
+GET {{ConsulConfigurationManagement_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
